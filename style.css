@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #22c3a3;
+    padding: 20px 0;
+}
+
+.fix-width {
+    width: 90%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.menu {
+    width: 80%;
+    float: right;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+}
+
+/* //BANNER SECTION// */
+.banner {
+    background-image: url(https://i.ibb.co/phbmn3h/emran-net.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    margin-bottom: 30px;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border: 2px solid #fffefe;
+    border-radius: 4px;
+}
+
+/* / / service section start // */
+
+.service h1 {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.service {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: #555555;
+}
+
+.item a i{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #0dbf9b;
+}
+.item p {
+	padding: 10px 0;
+	color: #888888;
+}
+
+.item {
+    width: 20%;
+    float: left;
+    margin: 92px 20px;
+}
+/* / / about section start / /  */
+.aboutt{
+    border-top: 2px solid #0dbf9b;
+
+}
+.about {
+	
+    color: #555555;
+}
+.about h1 {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.about-top {
+	text-align: center;
+	padding: 60px 0;
+}
+.about-left{
+    width: 40%;
+    float: left;
+    padding: 0 20px;
+}
+.about-right {
+	width: 43%;
+	float: left;
+	padding: 0 40px;
+}
+.about-right h3 {
+	padding: 14px 0;
+}
+/* <!-- / / Contact Us section Start ? / / --> */
+.contact h1 {
+	margin-top: 62px;
+	padding-bottom: 23px;
+	padding-top: 50px;
+}
+.contact-section{
+    background-color: #f6f6f6;
+    color: #555555;
+
+}
+.contact {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.contact-item {
+    width: 20%;
+    float: left;
+    margin: 92px 60px; 
+    text-align: center; 
+}
+.contact item a i{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #0dbf9b;
+}
+.contact item p{
+    padding: 10px 0;
+}
+/* <!-- / / social icon section Start ? / / --> */
+.social-icon{
+    background-color: #0dbf9b;
+}
+.icon {
+	text-align: center;
+	padding: 25px;
+}
+.icon a {
+	color: white;
+	padding: 13px;
+	font-size: 28px;
+}
+/* <!-- Footer Section start  --> */
+.footer{
+    text-align: center;
+    background-color: black;
+}
+.footer p {
+	color: #555555;
+	padding: 23px;
+}
